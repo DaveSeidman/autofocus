@@ -5,27 +5,29 @@ import './index.scss';
 export default function Form() {
 
   const submitForm = () => {
-    console.log('submit form');
     toast('Thanks for your message!')
   }
 
   return (
     <div className="form">
-      <label>First Name
-        <input type="text" name="first"></input>
-      </label>
-      <label>Last Name
-        <input type="text" name="last"></input>
-      </label>
-      <label className="full" name="email">Email
-        <input type="text"></input>
-      </label>
-      <label className="full" name="message">Message
-        <textarea />
-      </label>
-      <button type="button" onClick={submitForm}>Submit</button>
-
+      <form action="https://formsubmit.co/daveseidman@gmail.com" method="POST">
+        <label>First Name
+          <input type="text" name="first" />
+        </label>
+        <label>Last Name
+          <input type="text" name="last" />
+        </label>
+        <label className="full" name="email">Email
+          <input type="text" name="email" />
+        </label>
+        <label className="full" name="message">Message
+          <textarea name="message" />
+        </label>
+        <input type="hidden" name="_next" value={location.href} />
+        <input type="hidden" name="_captcha" value="false" />
+        <button type="submit" onClick={submitForm}>Submit</button>
+      </form>
       <ToastContainer />
-    </div>
+    </div >
   )
 }

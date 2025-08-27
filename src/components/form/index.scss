@@ -1,23 +1,26 @@
 .form {
-  display: flex;
-  flex-wrap: wrap;
 
-  label {
-    margin: 1rem;
-    width: calc(50% - 2rem);
+  form {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 
-    &.full {
-      width: 100%;
-    }
+    label {
+      margin: 1rem;
+      width: calc(50% - 2rem);
+      display: flex;
+      flex-direction: column;
 
-    input, textarea {
-      padding: 1rem;
-      border: 1px solid black;
-      border-radius: 1rem;
-      width: calc(100% - 2rem);
-      margin: .5rem 0 0;
+      &.full {
+        width: 100%;
+      }
+
+      input, textarea {
+        padding: 1rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        width: calc(100% - 2rem);
+        margin: .5rem 0 0;
+      }
     }
   }
 }
