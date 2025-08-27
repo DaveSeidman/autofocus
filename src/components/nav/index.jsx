@@ -10,7 +10,7 @@ export default function Nav() {
 
   return (
     <div className="nav">
-      <a className="nav-link" href="/"><img src={logo} /></a>
+      <a className="nav-link" href="/autofocus/"><img src={logo} /></a>
       <a className={`nav-link ${route === 'device' ? 'active' : ''}`} href="device">Device</a>
       <a className={`nav-link ${route === 'apps' ? 'active' : ''}`} href="apps">Apps</a>
       <a className={`nav-link ${route === 'faqs' ? 'active' : ''}`} href="faqs">FAQs</a>

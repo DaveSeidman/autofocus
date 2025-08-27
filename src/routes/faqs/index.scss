@@ -1,6 +1,7 @@
 .faqs {
+  min-height: calc(100vh - 13rem);
   &-hero {
-position: relative;
+    position: relative;
     width: 100%;
     height: 20rem;
 

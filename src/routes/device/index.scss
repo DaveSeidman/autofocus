@@ -1,9 +1,9 @@
 .device {
   display: flex;
+  min-height: calc(100vh - 13rem);
 
   &-content, &-media {
     width: 50%;
-
   }
 
   &-media {
