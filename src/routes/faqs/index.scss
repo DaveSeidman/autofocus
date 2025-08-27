@@ -1,5 +1,6 @@
 .faqs {
   min-height: calc(100vh - 13rem);
+
   &-hero {
     position: relative;
     width: 100%;
@@ -15,16 +16,23 @@
       background-position: center;
       background-size: cover;
     }
-   &-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    &-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+    }
   }
-}
-  p {
-    &.question {
-      font-size: 1.5rem;
+
+  &-questions {
+    width: calc(100% - 4rem);
+    padding: 0 2rem;
+    margin: 3rem 0;
+    p {
+      &.question {
+        font-size: 1.5rem;
+      }
     }
   }
 }

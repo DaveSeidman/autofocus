@@ -2,23 +2,23 @@
 
   display: flex;
   flex-wrap: wrap;
-  // width: 100%;
+  width: calc(100% - 2rem);
+  padding: 1rem;
 
+  &-content, &-media {
+    width: calc(50% - 2rem);
+    margin: 1rem;
+  }
   &-content {
-    width: 50%;
-    
-    // a {
-    //   display: block;
-    // }
+
   }
 
   &-media {
-    width: 50%;
 
     img {
       width: 100%;
       height: 100%;
-      object-fit: contain;
+      object-fit: cover;
     }
   }
 }

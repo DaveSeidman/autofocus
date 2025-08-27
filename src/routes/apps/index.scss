@@ -1,14 +1,18 @@
 .apps {
   display: flex;
   min-height: calc(100vh - 13rem);
-
+  width: calc(100% - 2rem);
+  padding: 1rem;
   &-content, &-media {
-    width: 50%;
+    width: calc(50% - 2rem);
+    margin: 0 1rem;
   }
 
   &-media {
     img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 }

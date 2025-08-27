@@ -5,13 +5,21 @@
   align-items: center;
   padding: 0 2rem;
   overflow: hidden;
+  height: 8rem;
 
   &-logo {
     &-image {
       width: 10rem;
     }
   }
-  a {
-    display: block;
+  &-contact {
+    h2 {
+      margin: .5rem 0 0;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      color: black;
+    }
   }
 }
