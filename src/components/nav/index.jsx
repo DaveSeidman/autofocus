@@ -7,10 +7,11 @@ export default function Nav() {
 
   return (
     <div className="nav">
-      <a href="device">Device</a>
-      <a href="apps">Apps</a>
-      <a href="faqs">FAQs</a>
-      <a href="contact">Contact</a>
+      <a className="nav-link" href="/">AutoFocus</a>
+      <a className="nav-link" href="device">Device</a>
+      <a className="nav-link" href="apps">Apps</a>
+      <a className="nav-link" href="faqs">FAQs</a>
+      <a className="nav-link" href="contact">Contact</a>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import Home from './routes/home';
 import Device from './routes/device';
 import Apps from './routes/apps';
 import Faqs from './routes/faqs';
@@ -15,7 +16,7 @@ const App = () => {
     <div className='app'>
       <Nav />
       <Routes>
-        <Route path="/" element={<div className="home"></div>}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/device" element={<Device />}></Route>
         <Route path="/apps" element={<Apps />}></Route>
         <Route path="/faqs" element={<Faqs />}></Route>
