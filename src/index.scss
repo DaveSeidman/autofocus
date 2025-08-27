@@ -1,20 +1,34 @@
 @font-face {
   font-family: 'Alexpro';
-  src: url('assets/fonts/alexerpro.otf');
+  src: url('assets/fonts/alexerpro-light.otf');
+  font-weight: 300;
 }
-
+@font-face {
+  font-family: 'Alexpro';
+  src: url('assets/fonts/alexerpro-regular.otf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Alexpro';
+  src: url('assets/fonts/alexerpro-bold.otf');
+  font-weight: 700;
+}
 $white: rgb(240, 241, 242);
 $black: rgb(10, 9, 8);
 
 html, body, #root, .app {
   font-size: 16px;
   font-family: 'Alexpro';
+  font-weight: 300;
   margin: 0;
   // padding: 0;
 }
 
 .app {
  
+  h1, h2 {
+    font-weight: 500;
+  }
   .hidden {
     opacity: 0;
     visibility: hidden;
