@@ -6,8 +6,11 @@ export default function Faqs() {
 
   return (
     <div className="faqs">
-      <div className="faqs-title">
-        <h1>Frequently Asked Questions</h1>
+      <div className="faqs-hero">
+        <div className="faqs-hero-background"></div>
+        <div className="faqs-hero-title">
+          <h1>Frequently Asked Questions</h1>
+        </div>
       </div>
       <p className="question">What problem does AutoFocus solve?</p>
       <p>Distracted driving results in 300,000 accidents annually in the US with phone use being the biggest distraction. In addition to the lives lost, the total cost of distracted driving is $40B per year.</p>

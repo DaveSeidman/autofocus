@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <div className="home">
       <div className="home-hero">
+        <div className="home-hero-background"></div>
         <h1 className="home-hero-title">Revolutionizing Road Safety by Elimination Distracted Driving</h1>
       </div>
       <div className="home-product">

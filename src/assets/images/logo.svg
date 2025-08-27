@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 247.2">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        font-family: FONTSPRINGDEMO-AlexerProMedRegular, 'FONTSPRING DEMO - AlexerPro Med';
+        font-size: 193.4px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <g id="Layer_1-2" data-name="Layer_1">
+        <g class="cls-1">
+          <text class="cls-2" transform="translate(20.3 185.8)"><tspan x="0" y="0">AutoFocus</tspan></text>
+        </g>
+      </g>
+      <text/>
+    </g>
+  </g>
+</svg>
