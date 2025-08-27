@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "../../components/form";
 import driveModeImg from '../../assets/images/mountain-road.jpg';
 import missionImg from '../../assets/images/mountain-road.jpg';
 import './index.scss';
@@ -36,6 +37,15 @@ export default function Home() {
             <li>Safer Alternatives: We offer voice-driven texting and navigation, eliminating need for manual phone interaction</li>
             <li>Incentivized Safe Behavior: We empower insurance companies to reward policyholders</li>
           </ol>
+        </div>
+      </div>
+      <div className="home-contact">
+        <div className="home-contact-content">
+          <h1>Contact Us</h1>
+          <p>Interested in AutoFocus? Fill out some info and we will be in touch shortly. We can't wait to hear from you!</p>
+        </div>
+        <div className="home-contact-form">
+          <Form />
         </div>
       </div>
     </div>

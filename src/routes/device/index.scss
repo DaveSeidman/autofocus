@@ -1,3 +1,14 @@
 .device {
-  
+  display: flex;
+
+  &-content, &-media {
+    width: 50%;
+
+  }
+
+  &-media {
+    img {
+      width: 100%;
+    }
+  }
 }

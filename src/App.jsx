@@ -6,6 +6,7 @@ import Apps from './routes/apps';
 import Faqs from './routes/faqs';
 import Contact from './routes/contact';
 import Nav from './components/nav';
+import Footer from './components/footer';
 import './index.scss';
 
 const App = () => {
@@ -22,7 +23,7 @@ const App = () => {
         <Route path="/faqs" element={<Faqs />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
-
+      <Footer />
     </div>
   );
 }
